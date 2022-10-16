@@ -1,11 +1,12 @@
 import React from 'react';
+import Layout from '../layout/Layout';
 
 const Home = (): JSX.Element => {
   return (
-    <div>
+    <Layout>
       <section>hero</section>
       <section>about</section>
-    </div>
+    </Layout>
   );
 };
 
